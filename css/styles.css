@@ -2,7 +2,7 @@
 
 *{margin: 0; padding: 0; 
 
-    /* outline: 1px solid tomato; */
+    outline: 1px solid tomato;
 
 }
 *::before, *::after{box-sizing: border-box;}
@@ -20,4 +20,175 @@ transition-duration: 0.01ms !important;
 scroll-behavior: auto !important;
 transition: none;
 }
+}
+
+body{
+    width: 1440px;
+    height: 3911px;
+    background: var(--color-2);
+}
+
+
+.div_head{
+    width: 1440px;
+    height: 141px;
+}
+.div_contain_head{
+    width: 1378px;
+    height: 96px;
+    position: relative;
+    top: 22px;
+    right: 46px;
+        img{
+            width: 35px;
+            height: 35px;
+            position: relative;
+            left: 1340px;
+            top: -74px;
+        }
+
+}
+
+.div_contain_aqua{
+    width: 298px;
+    height: 96px;
+    background: var(--color-1);
+    position: relative;
+    top: 22px;
+    
+    border-radius: 50px;
+        h1{
+            width: 112px;
+            height: 46px;
+            font-size: 48px;
+            font-family: "Roboto-Regular";
+            color: var(--color-2);
+            position: relative;
+            top: 21px;
+            left: 78px;
+            font-weight: 1;
+        }
+        img{
+            width: 46px;
+            height: 45px;
+            position: relative;
+            top: -22px;
+            left: 192px;
+        }
+}
+
+.div_menu{
+    width: 723px;
+    height: 38px;
+    display: flex;
+    position: relative;
+    top: -31px;
+    left: 397px;
+    gap: 73px;
+        a{
+            text-decoration: none;
+            color: var(--color-1);
+            font-family: "Roboto-Bold";
+            font-size: 24px;
+        }
+        a:hover{
+            color: var(--color-1);
+            font-family: "Roboto-Bold";
+            font-size: 24px;
+            line-height: 20px;
+        }
+}
+
+.div_title {
+    width: 707px;
+    height: 391px;
+    position: relative;
+    top: 90px;
+    left: 100px;
+    display: flex;
+    gap: 35px;
+
+}
+
+.div_textt{
+    width: 707px;
+    height: 175px;
+    color: var(--color-1);
+    position: relative;
+    top: 456px;
+    left: 100px;
+
+        h1{
+            width: 707px;
+            height: 71px;
+            font-size: 56.4px;
+            font-family: "Roboto-Regular";
+            font-weight: 1;
+        }
+        p{
+            width: 685px;
+            height: 91px;
+            font-size: 26px;
+            font-family: "Roboto-Regular";
+            font-weight: 1;
+
+        }
+}
+
+.div_compra{
+    width: 249px;
+    height: 59px;
+    background: var(--color-1);
+    border-radius: 50px;
+    position: relative;
+    top: 356px;
+    left: 937px;
+        a{
+            width: 181px;
+            height: 48px;
+            font-size: 40px;
+            font-family: "Roboto-Bold";
+            text-decoration: none;
+            color: var(--color-2);
+            position: relative;
+            top: 5px;
+            left: 34px;
+            line-height: 20px;
+        }
+        a:hover{
+            font-size: 40px;
+            font-family: "Roboto-Bold";
+            color: var(--color-2);
+        }
+        img{
+        width: 36px;
+            height: 36px;
+            position: relative;
+            top: 6px;
+        }
+}
+
+.div_gameplay{
+    width: 654px;
+    height: 258px;
+    position: relative;
+    left: 393px;
+    top: 537px;
+        h1{
+            width: 363px;
+            height: 71px;
+            color: var(--color-1);
+            font-family: "Roboto-Bold";
+            font-size: 64px;
+            position: relative;
+            left: 145px;
+        }
+        p{
+            width: 654px;
+            height: 146px;
+            color: var(--color-1);
+            font-size: 36px;
+            font-family: "Roboto-Regular";
+            text-align: center;
+        }
 }
